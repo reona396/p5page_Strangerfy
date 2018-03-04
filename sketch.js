@@ -2,7 +2,7 @@ var walkersNum = 5;
 var walkers = [];
 
 function setup() {
-    createCanvas(windowWidth, windowHeight);
+    createCanvas(windowWidth, document.body.clientHeight);
     colorMode(HSB, 360, 100, 100);
     noStroke();
 
